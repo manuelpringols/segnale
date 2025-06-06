@@ -1,0 +1,7 @@
+services:
+  novnc:
+    build: .
+    ports:
+      - "6080:6080"
+    restart: unless-stopped
+
